@@ -1,0 +1,290 @@
+body{
+    background: black;
+}
+.pop{
+    width:100%;
+}
+.mycar{
+    display:none;
+}
+
+.welcome{
+    padding:50px 0px 0px 10px;
+    color:blue;
+    font-size: 22px;    
+  }
+
+.image-info{
+    display:none;
+}
+.mypara{
+    margin:10px 5px 10px 15px;
+    color:white;
+    font-size: 16px;
+}
+.connected{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.connected h2{
+    color:white;
+    text-align: center;
+    padding:2rem 0;
+}
+.connected img{
+   width:300px;
+    margin-bottom: 1rem;
+}
+.connected p{
+    color:white;   
+    margin:0 3rem 1rem 3rem;
+}
+
+.offers{
+    color:white;
+    padding:0px;
+    text-align: center;
+    font-size: 18px;
+}
+.user_info{
+    display: flex; 
+    justify-content: center;  
+}
+
+.name{
+    height:25px;
+    width:140px;
+    border-radius: 5px;
+    border:0;
+    font-size: 16px;
+    padding:0px 5px;
+}
+.name:focus{
+    outline: none;
+}
+.name::placeholder{
+    font-size: 14px;
+    padding:0px 5px;
+}
+
+.email{
+    height:25px;
+    width:140px;
+    border-radius: 5px;
+    border:0;
+    font-size: 16px;
+    padding:0px 5px;
+}
+.email:focus{
+    outline: none;
+}
+.email::placeholder{
+    font-size: 14px;
+    padding:0px 5px;
+}
+.user_name{
+    padding: 5px 5px;
+}
+.user_email{
+    padding:5px 5px;
+}
+.submit_button{
+    text-align: center;
+    padding-top: 10px;
+} 
+.butt{
+    width:60px;
+    height:27px;
+    font-weight:bold;
+    background-color: orange;
+    color:white;
+    border:0;
+    border-radius: 5px;
+    font-size:13px;
+    cursor:pointer;
+}
+.butt{
+    outline:none;
+}
+.butt:active{
+    background-color:greenyellow;
+ }
+.footer{
+    color:white;
+    font-size: 14px;
+    padding:20px 5px 0px 5px;
+}
+.footer_text{
+    color:blue;
+    font-size:20px;
+    padding:5px 0px;
+}
+.footer_para{
+    padding:0px 10px;
+}
+.number{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    height:100px;
+    padding-top:20px;
+}
+.line{
+    margin-top: 50px;
+}
+
+@media only screen and (min-width:768px){
+    .welcome{
+        font-size: 26px; 
+        padding-top:70px;
+        
+      }
+    .mypara{
+        font-size: 18px;
+    }
+    .connected h2{
+        font-size: 28px;
+    }
+    .connected img{
+        width:500px;
+        height:450px;        
+    }
+    
+    .name{
+        height:35px;
+        width:200px;
+        font-size: 18px;
+        } 
+    .name::placeholder{
+         font-size: 16px;     
+}
+    .email{
+        height:35px;
+        width:200px;
+        font-size: 18px;
+            
+}
+    .email::placeholder{
+         font-size: 16px;
+    
+}
+    .butt{
+        width:70px;
+        height:30px;
+        font-size: 16px;
+    }
+    .footer{ 
+        font-size: 16px;
+            
+}
+}
+
+@media only screen and (min-width:1000px){
+    .pop{
+        width:100%;
+    }
+    .mycar{
+        display:block;
+        width:100%;
+        padding-top: 4.1rem;
+    } 
+    .image-info{
+        display:block;
+        color:white;
+       
+    }
+    .image_text{
+        margin-top: -500px;
+        padding-left: 20px;
+        color:black;
+        
+    }
+    .image_content{
+        margin-top: 300px;
+        padding-left: 20px;
+        font-size: 24px;
+    }
+        
+    .welcome{
+        padding:100px 0px 0px 20px;
+        color:white;
+        font-size: 30px;    
+    }
+    
+    .mypara{
+        padding-left: 20px;
+        color:white;
+        font-size: 23px;
+
+  }
+    .connected h2{
+        font-size: 30px;
+}
+    .connected img{
+        width:700px;
+        height:500px;        
+}
+.connected p{
+    color:white;
+    line-height: 1.5rem;
+    margin:1rem 17rem;
+    font-size: 18px;
+}
+    .name{
+        height:40px;
+        width:230px;
+        font-size: 20px;
+    } 
+.name::placeholder{
+     font-size: 18px;     
+}
+.email{
+    height:40px;
+    width:230px;
+    font-size: 20px;
+        
+}
+.email::placeholder{
+     font-size: 18px;
+
+}
+.butt{
+    width:80px;
+    height:35px;
+    font-size: 17px;
+}
+.footer{ 
+    font-size: 19px;
+        
+}
+ }
+@media only screen and (min-width:1200px){
+    .mycar{
+       padding-top:4rem;
+        height:500px;
+        width:100%;
+    }
+    .image_text{
+        margin-top: -450px;
+        padding-left: 20px;
+        color:black;
+        
+    }
+    .image_content{
+        margin-top: 250px;
+        padding-left: 20px;
+        font-size: 24px;
+    }
+    
+    .welcome::first-letter{
+        font-size: 150%;
+        color:red;
+    }
+    .connected img{
+        width:800px;
+        height:500px;        
+}
+    
+}

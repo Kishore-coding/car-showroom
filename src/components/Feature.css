@@ -1,0 +1,198 @@
+.my-features{
+    width:100%;
+    color:white;
+    font-size: 14px;  
+    padding-top:65px;
+}
+.hero{
+    display:none;
+}
+.my-features img{
+    
+    margin-top:-1rem;
+}
+
+.ccc9{
+    
+    height:300px;
+    width: 100%;
+    
+}  
+.feature-info{
+    margin:1rem;
+} 
+.my-features p{
+    padding:10px 10px 0px 20px;
+}
+.tech{
+    color:blueviolet;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.perfo{
+    padding-top: 20px;
+    color:blueviolet;
+    font-size: 30px;
+}
+.perfo_content{
+    padding:10px 5px 0px 10px;
+
+}
+.comfort{
+    padding-top: 20px;
+    color:blueviolet;
+    font-size: 30px; 
+}
+.comfort_content{
+    padding:10px 5px 0px 10px; 
+}
+.saftey{
+    padding-top: 20px;
+    color:blueviolet;
+    font-size: 30px;    
+}
+.saftey_content{
+    padding:10px 5px 0px 10px; 
+    height:500px;
+}
+@media only screen and (min-width:768px) {
+    .my-features{
+        font-size:22px;
+    }
+    .my-features img{
+    
+        margin-top:0rem;
+    }
+}
+@media only screen and (min-width:1000px){
+    
+.ccc9{
+    padding-top:0px;
+    height:450px;
+}   
+.my-features{
+    font-size: 30px;
+}
+.tech{
+    font-size: 40px;
+}
+.perfo{
+    font-size: 40px;
+}
+.comfort{
+    font-size: 40px; 
+}
+.saftey{
+    font-size: 40px;    
+}
+}
+@media only screen and (min-width:1200px){
+    .ccc9{
+        display:none;
+    }
+    
+.hero{
+    display:block;
+    height:550px;
+    width:100%;
+    background-image: url(../images/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+  }
+  .highway{
+    height:200px;
+    width:500%;
+    display:block;
+    background-image: url(../images/road.jpg);
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:1;
+    background-repeat: repeat-x;
+    animation: highway 5s linear infinite;
+  }
+  
+  @keyframes highway{
+  
+    100%{
+      transform: translateX(-3400px);
+    }
+  }
+  
+  .city{
+    height:250px;
+    width:500%;
+    background-image: url(../images/city.png);
+    position:absolute;
+    left:0;
+    right: 0;
+    bottom:200px;
+    display: block;
+    z-index:1;
+    background-repeat: repeat-x;
+    animation:city 20s linear infinite;
+  }
+  @keyframes city{
+  
+     100%{
+       transform:translateX(-1400px)
+     }
+  }
+  
+  
+  .car{
+    width:400px;
+    left:50%;
+    bottom:97px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index:2;
+  }
+  
+  .car img{
+    width:100%;
+    animation:car 1s linear infinite;
+  }
+  @keyframes car{
+    100%{
+      transform: translateY(-1px);
+    }
+    50%{
+      transform: translateY(1px);
+    }
+    0%{
+      transform: translateY(-1px);
+    }
+  }
+  
+  .wheel{
+    position: absolute;
+    left:50%;
+    bottom:178px;
+    z-index:2;
+    transform: translateX(-50%);
+    
+  }
+  .wheel img{
+    width:72px;
+    height:72px;
+    animation:wheel 1s linear infinite
+  }
+  .back-wheel{
+    left:-165px;
+    position:absolute;
+  }
+  .front-wheel{
+    left:80px;
+    position:absolute;
+  }
+  
+  @keyframes wheel{
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+}

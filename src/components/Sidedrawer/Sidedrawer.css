@@ -1,0 +1,34 @@
+.side-drawer{
+    height:100%;
+    width:70%;
+    max-width: 400px;
+    background-color:black;
+    position:fixed;
+    z-index:200;
+    box-shadow:2px 2px 4px grey;
+}
+.side-drawer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left:2rem;
+    margin-top: 30px;
+
+}
+.side-drawer li a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 0.7rem;
+}
+.side-drawer li{
+    padding:20px 0;
+}
+.side-drawer li a:hover{
+    color:blueviolet;
+}
+ul li i{
+    color:white;
+    font-size: 27px;
+}

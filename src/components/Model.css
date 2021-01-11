@@ -1,0 +1,140 @@
+.myModel{
+    width:100%;
+}
+.model-car{
+   height: 300px;
+   width:100%; 
+}
+.pop{
+    display: none;
+}
+.booking{
+    color:white;
+    font-size: 15px;
+    margin-top:-230px;
+    padding-left: 20px;
+}
+.models{
+    padding-top: 190px;
+    color:white;
+    font-size:22px;
+    margin-left: 1rem;
+}
+.model-items img{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:1rem auto;
+    width:300px;
+    
+    z-index:10;
+    
+    transition: 0.5s linear;
+}
+.model-items img:hover{
+    
+    transform:scale(.94);
+}
+.model-items a:focus{
+    outline: none;
+}
+.foto{
+    color:white;
+    font-size:14px;
+    height:170px;
+    padding:20px 10px;
+}
+@media only screen and (max-width:320px){
+    .model-items img{
+     width:200px;
+      }
+      
+    
+}
+@media only screen and (min-width:768px){
+   
+.model-car{
+    height: 500px;     
+ }
+ .model-items img{
+    width:600px;
+     }
+ .booking{
+     color:white;
+     font-size: 24px;
+     margin-top:-370px;
+      }       
+.models{
+    padding-top: 330px;
+    margin-left: 1rem;
+    color:white;
+    font-size:33px;
+}
+.foto{
+    font-size: 22px;
+}
+}
+@media only screen and (min-width:1024px){
+    .model-car{
+        height: 550px;     
+     }  
+     .new-models{
+         display:flex;
+         flex-wrap: wrap;
+     }
+     .model-items img{
+        width:320px;
+        height:300px;
+        padding:0.5rem;
+         }
+     .models{
+         font-size:38px;
+        }
+     .booking{
+         
+         font-size: 30px;
+         margin-top:-390px;
+         
+          }
+}
+
+@media only screen and (min-width:1200px){
+    .model-car{
+        display:none;
+     } 
+     .pop{
+         display: block;
+         width:100%;
+         height:500px;
+         padding-top: 4rem;
+     }
+     .new-models{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+     .model-items img{
+        width:380px;
+        height:300px;
+        padding:1rem;
+        
+        margin:1rem;
+         }
+     .models{
+         font-size:38px;
+         padding-top: 370px;
+        }
+
+     
+    .booking{
+        color:white;
+        font-weight:bold;
+        font-style: oblique;
+        font-size: 20px;       
+    }
+    .model-items hr{
+        display: none;
+    }
+    
+}
