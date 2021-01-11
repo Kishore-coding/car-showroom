@@ -1,3 +1,3 @@
 #Car showroom 
 
-Created simple car showroom site using react JS
+Created a simple responsive car showroom site using React JS
